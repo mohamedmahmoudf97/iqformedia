@@ -3936,8 +3936,30 @@ span.email-notes{
 
 
 
-
-
+/* contact */
+.contact-area .single-member, .contact-area .single-member::before{
+    border-radius: 5px;
+}
+.contact-area .single-member .icon i {
+    color: #017BFF;
+    font-size: 28px;
+    height: 70px;
+    line-height: 68px;
+    margin-right: 20px;
+    text-align: center;
+    width: 70px;
+    background: #EDF9FF;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.contact-area .single-member:hover .icon i{
+    color: #fff;
+    background: #017BFF 
+}
+.contact-area .single-member:hover::before{
+    top: 20px;
+    left: 20px
+}
 
 
 
