@@ -1,6 +1,8 @@
 <?php 
-    include "includes/header.php";
-    include "includes/navbar.php";
+    $page_name = 'Contact Us';
+
+    include "../includes/header.php";
+    include "../includes/navbar.php";
 ?>
 
     <!-- Start Breadcrumb Area -->
@@ -14,9 +16,9 @@
                             <div class="bread-come">
                                 <nav aria-label="breadcrumb ">
                                     <ol class="breadcrumb purple lighten-4 justify-content-center">
-                                        <li class="breadcrumb-items"><a class="black-text" href="index.html">Home</a><i class="ti-angle-right"
+                                        <li class="breadcrumb-items"><a class="black-text" href="/">Home</a><i class="ti-angle-right"
                                             aria-hidden="true"></i></li>
-                                        <li class="breadcrumb-items"><a class="black-text" href="contact.html">Contact us</a></li>
+                                        <li class="breadcrumb-items"><a class="black-text" >Contact us</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -93,7 +95,7 @@
                        </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-7">
-                        <form id="contactForm" method="POST" action="contact.php" class="contact-form">
+                        <form id="contactForm" method="POST" action="index.php" class="contact-form">
                             <div class="row"> 
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
@@ -128,5 +130,5 @@
 
 
 <?php
-    include "includes/footer.php";
+    include "../includes/footer.php";
 ?>
