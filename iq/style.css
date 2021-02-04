@@ -420,6 +420,7 @@ div#preloader {
 .logo img {
 	position: relative;
 	z-index: 2;
+    height: 54px;
 }
 .header_menu ul li {
 	display: inline-block;
@@ -3933,9 +3934,6 @@ span.email-notes{
     border-radius: 5px 5px 0px 0px;
 }
 
-
-
-
 /* contact */
 .contact-area .single-member, .contact-area .single-member::before{
     border-radius: 5px;
@@ -3960,6 +3958,11 @@ span.email-notes{
     top: 20px;
     left: 20px
 }
+
+
+
+
+
 
 
 
